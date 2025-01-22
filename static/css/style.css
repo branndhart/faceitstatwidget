@@ -1,0 +1,121 @@
+body {
+  /* background-image: url('../img/Nuke\ CS2.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  font-family: Play, sans-serif;
+  font-weight: 400;
+  margin: 20px;
+  align-items: center;
+  /* background: rgb(22, 22, 22); */
+}
+form {
+  margin-bottom: 20px;
+}
+input[type="text"] {
+  padding: 10px;
+  width: 200px;
+  font-size: 16px;
+}
+input[type="submit"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+/* h1 {
+  color: #fff;
+} */
+.stats {
+  display: flex;
+}
+.stat {
+  margin: 10px 5px 0;
+  font-size: 28px;
+  color: #fff;
+  -webkit-text-stroke: 1px #000;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-shadow: 0px 0px 2px black;
+  background: linear-gradient(
+    45deg,
+    rgba(18, 48, 32, 0.8),
+    rgba(18, 48, 48, 0.6)
+  );
+  -webkit-background-clip: text;
+  filter: drop-shadow(0px 0px 1px rgba(0, 0, 0, 0.9));
+}
+
+.rank_stat {
+  margin: 10px 0 0;
+}
+
+.iftop1000, .iftop1, .iftop2, .iftop3 {
+  margin-top: 16px;
+  margin-left: 8px;
+  filter: drop-shadow(0px 0px 1.5px rgba(0, 0, 0, 0.9));
+}
+
+.elJTcM {
+  background: rgb(232, 1, 40);
+}
+
+.iftop1_background {
+  background: rgb(255, 211, 54);
+}
+
+.iftop2_background {
+  background: rgb(222, 245, 255);
+}
+
+.iftop3_background {
+  background: rgb(255, 114, 54);
+}
+
+.hidden {
+  display: none;
+}
+
+/* .elJTcM {
+  background: rgb(255, 211, 54);
+} */
+
+.jeOBZZ {
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  border-radius: 99999px;
+  text-wrap: nowrap;
+  padding-block: 2px;
+  padding-inline: 8px 2px;
+  gap: 4px;
+}
+
+.jOYygD {
+  font-family: Play, sans-serif;
+  letter-spacing: 0.02em;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 16px;
+}
+
+.djHqlX {
+  color: rgb(6, 6, 6);
+  font-weight: bold;
+}
+
+.cFkIBN {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+
+.gdqhhT {
+  fill: rgb(232, 1, 40);
+}
